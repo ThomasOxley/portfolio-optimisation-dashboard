@@ -171,14 +171,14 @@ Portfolio growth with Monte Carlo P10–P90 band versus S&P 500, FTSE 100, and N
 
 Year-by-year growth percentage across the simulation horizon.
 
-![Year-by-Year Growth](screenshots/Yearly%20Performance.png)
+![Year-by-Year Growth](screenshots/Yearly%20Performance%20.png)
 
 ---
 
 ### Monte Carlo Simulation
 Distribution of final portfolio values across 3,000 simulations (Student-t fat-tail engine) alongside downsampled spaghetti paths.
 
-![Monte Carlo Distribution and Spaghetti](screenshots/Monte%20Carlo%20simulations.png)
+![Monte Carlo Distribution and Spaghetti](screenshots/Monte%20Carlo%20simulations%20.png)
 
 ---
 
@@ -186,7 +186,7 @@ Distribution of final portfolio values across 3,000 simulations (Student-t fat-t
 
 **Drawdown Stress Test** — Portfolio stress line versus S&P 500, FTSE 100, and Nasdaq with P10–P90 worst-10% band. Portfolio max drawdown -8.03% versus S&P 500 -24.77% and Nasdaq -33.10%.
 
-![Drawdown Stress Test](screenshots/Drawdowns%20with%20Benchmark%20Comparisons.png)
+![Drawdown Stress Test](screenshots/Drawdowns%20with%20Benchmark%20Comparisons%20.png)
 
 **Breach Probability Curves** — Probability of breaching -20% and -30% drawdown thresholds over time across the worst 10% of simulation runs.
 
