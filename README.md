@@ -217,9 +217,6 @@ Clicking any point opens the Frontier Picker — choose model, preview full Mont
 ![Frontier Hover](screenshots/Interactive%20Efficient%20Frontier%20Graph%20Image%203.png)
 
 ![Frontier Selected Point](screenshots/Interactive%20Efficient%20Frontier%20Graph%20Image%202.png)
-```
-
----
 
 ---
 
@@ -238,7 +235,7 @@ Clicking any point opens the Frontier Picker — choose model, preview full Mont
 
 ---
 
-## Installation & Usage
+### Installation & Usage
 
 ### Requirements
 ```
