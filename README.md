@@ -111,7 +111,6 @@ Results are displayed across 11 tabs:
 ## Screenshots
 
 ### Full Dashboard — Configuration UI
-The 8-section Accordion UI with all configuration controls collapsed, showing the complete input panel alongside the 11-tab results dashboard.
 
 ![Overall Dashboard View](screenshots/Overall_Dashboard_View.png)
 
@@ -121,65 +120,55 @@ The 8-section Accordion UI with all configuration controls collapsed, showing th
 
 ### Configuration Sections
 
-**Section 1 — Data:** Ticker input, start date, risk-free rate, inflation, benchmark selection
+**Section 1 — Data**
 ![Data Configuration](screenshots/Dashboard_Display_1.png)
 
-**Section 2 — Cleaning:** Auto-tune toggle, business day alignment, ffill limit, coverage thresholds
+**Section 2 — Cleaning**
 ![Cleaning Configuration](screenshots/Dashboard_Display_2.png)
 
-**Section 3 — Portfolio:** Capital, contributions, years, risk aversion, strategy, model blend
+**Section 3 — Portfolio**
 ![Portfolio Configuration](screenshots/Dashboard_Display_3.png)
 
-**Section 4 — Constraints:** Long/short, weight caps, gross exposure, beta-neutral penalty
+**Section 4 — Constraints**
 ![Constraints Configuration](screenshots/Dashboard_Display_4.png)
 
-**Section 5 — Selection:** Subset size, exhaustive limit, random search budget
+**Section 5 — Selection**
 ![Selection Configuration](screenshots/Dashboard_Display_5.png)
 
-**Section 6 — Risk Controls:** Volatility targeting, Sharpe-weighted caps
+**Section 6 — Risk Controls**
 ![Risk Controls Configuration](screenshots/Dashboard_Display_6.png)
 
-**Section 7 — Analytics:** Monte Carlo settings, simulation engine, regime parameters, chart toggles
+**Section 7 — Analytics**
 ![Analytics Configuration](screenshots/Dashboard_Display_7.png)
 
-**Section 8 — Drawdowns:** Stress mode, density heatmap, breach thresholds, time-under-water
+**Section 8 — Drawdowns**
 ![Drawdowns Configuration](screenshots/Dashboard_Display_8.png)
 
 ---
 
 ### Portfolio Summary & Results
-Full summary output showing Blend model (MPT + CAPM + APT + ML) on 30 tickers with random subset selection. Annualised return 40.62%, Sharpe 1.84, Sortino 1.64, final portfolio value £401,524 on £121,537 total invested.
 
 ![Portfolio Performance Summary](screenshots/Portfolio_performance_and_summary_.png)
-
-![Full Dashboard Summary View](screenshots/Overall_View_of_Portfolio_Analysis_Dashboard_.png)
 
 ---
 
 ### Portfolio Set-up & Weights
-Target allocation table showing per-asset weights, initial investment amounts, and risk-free sleeve.
 
 ![Portfolio Set-up](screenshots/Portfolio_Set_Up.png)
-
-Per-asset weights, volatility contributions, risk contribution percentages, and CAPM betas — alongside full holdings table.
 
 ![Weights & Holdings](screenshots/Stock_Risk_contributions_.png)
 
 ---
 
 ### Portfolio Growth
-Portfolio growth with Monte Carlo P10–P90 band versus S&P 500, FTSE 100, and Nasdaq benchmarks.
 
 ![Portfolio Growth with Benchmarks](screenshots/Stock_performance_analysis.png)
-
-Year-by-year growth percentage for each simulation year.
 
 ![Year-by-Year Growth](screenshots/Yearly_Performance_.png)
 
 ---
 
 ### Monte Carlo Simulation
-Distribution of final portfolio values across 3,000 simulations (Student-t fat-tail engine), alongside downsampled spaghetti paths showing the full range of outcomes.
 
 ![Monte Carlo Distribution and Spaghetti](screenshots/Monte_Carlo_simulations_.png)
 
@@ -187,46 +176,33 @@ Distribution of final portfolio values across 3,000 simulations (Student-t fat-t
 
 ### Drawdown Analytics Suite
 
-**Drawdown Stress Test** — Portfolio stress line versus S&P 500, FTSE 100, and Nasdaq with P10–P90 worst-10% band. Portfolio max drawdown -8.03% versus S&P 500 -24.77% and Nasdaq -33.10%.
+**Drawdown Stress Test**
+![Drawdown Stress Test](screenshots/Drawdowns_with_Benchmark_comparisons_.png)
 
-![Drawdown Stress Test with Benchmarks](screenshots/Drawdowns_with_Benchmark_comparisons_.png)
+**Breach Probability Curves**
+![Breach Probabilities](screenshots/Breach%20probabilities%20.png)
 
-**Breach Probability Curves** — Probability of breaching -20% and -30% drawdown thresholds over time across the worst 10% of simulation runs.
-
-![Breach Probabilities](screenshots/Breach_probabilities_.png)
-
-**Time Under Water Distribution** — Histogram of under-water episode lengths across stressed simulation paths. The majority of episodes resolve within 5 months.
-
+**Time Under Water**
 ![Time Under Water](screenshots/Tim_Under_Water_analysis_.png)
 
-**Max Drawdown Distribution** — Overlaid histogram comparing worst-10% subset versus all simulation runs. Clearly illustrates tail risk concentration.
-
+**Max Drawdown Distribution**
 ![Max Drawdown Distribution](screenshots/Max_drawdown_Distribution_diagram.png)
 
 ---
 
 ### Correlation Heatmap
-Post-cleaning daily return correlations across the selected asset universe.
 
 ![Correlation Heatmap](screenshots/Correlation_Heatmap.png)
 
 ---
 
 ### Interactive Efficient Frontier
-The clickable efficient frontier — selecting any point opens the Frontier Picker submenu with model selection and full Monte Carlo + drawdown preview.
 
 ![Efficient Frontier](screenshots/Interactive_Efficient_Frontier_Graph_Image_1.png)
 
-![Frontier Hover — Volatility and Return](screenshots/Interactive_Efficient_Frontier_Graph_Image_3.png)
+![Frontier Hover](screenshots/Interactive_Efficient_Frontier_Graph_Image_3.png)
 
-![Frontier with Selected Point](screenshots/Interactive_Efficient_Frontier_Graph_Image_2.png)
-```
-
----
-
-Scroll down to **"Commit changes"** and type:
-```
-Update screenshots section with all 24 images correctly mapped
+![Frontier Selected Point](screenshots/Interactive_Efficient_Frontier_Graph_Image_2.png)
 
 ---
 
