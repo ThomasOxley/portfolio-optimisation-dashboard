@@ -114,7 +114,7 @@ Results are displayed across 11 tabs:
 
 ![Overall Dashboard View](screenshots/Overall%20Dashboard%20View.png)
 
-![Full Dashboard with Results](screenshots/Overall%20View%20of%20Portfolio%20Analysis%20Dashboard.png)
+![Full Dashboard with Results](screenshots/Overall%20View%20of%20Portfolio%20Analysis%20Dashboard%20.png)
 
 ---
 
