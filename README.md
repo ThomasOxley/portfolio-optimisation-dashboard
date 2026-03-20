@@ -190,7 +190,7 @@ Distribution of final portfolio values across 3,000 simulations (Student-t fat-t
 
 **Breach Probability Curves** — Probability of breaching -20% and -30% drawdown thresholds over time across the worst 10% of simulation runs.
 
-![Breach Probabilities](screenshots/Breach%20Probabilities%20.png)
+![Breach Probabilities](screenshots/Breach%20probabilities%20.png)
 
 **Time Under Water Distribution** — Histogram of under-water episode lengths. The majority of episodes resolve within 5 months.
 
