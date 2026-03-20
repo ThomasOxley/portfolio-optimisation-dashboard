@@ -221,9 +221,6 @@ Clicking any point opens the Frontier Picker — choose model, preview full Mont
 
 ---
 
-Commit message:
-```
-Fix all screenshot paths with correct filenames and %20 encoding
 ---
 
 ## Technical Stack
