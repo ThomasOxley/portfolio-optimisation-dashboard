@@ -112,98 +112,118 @@ Results are displayed across 11 tabs:
 
 ### Full Dashboard — Configuration UI
 
-![Overall Dashboard View](screenshots/Overall_Dashboard_View.png)
+![Overall Dashboard View](screenshots/Overall%20Dashboard%20View.png)
 
-![Full Dashboard with Results](screenshots/Overall_View_of_Portfolio_Analysis_Dashboard_.png)
+![Full Dashboard with Results](screenshots/Overall%20View%20of%20Portfolio%20Analysis%20Dashboard.png)
 
 ---
 
 ### Configuration Sections
 
-**Section 1 — Data**
-![Data Configuration](screenshots/Dashboard_Display_1.png)
+**Section 1 — Data:** Ticker input, start date, risk-free rate, inflation, benchmark selection
+![Data Configuration](screenshots/Dashboard%20Display%201.png)
 
-**Section 2 — Cleaning**
-![Cleaning Configuration](screenshots/Dashboard_Display_2.png)
+**Section 2 — Cleaning:** Auto-tune, business day alignment, ffill limit, coverage thresholds
+![Cleaning Configuration](screenshots/Dashboard%20Display%202.png)
 
-**Section 3 — Portfolio**
-![Portfolio Configuration](screenshots/Dashboard_Display_3.png)
+**Section 3 — Portfolio:** Capital, contributions, years, risk aversion, strategy, model blend
+![Portfolio Configuration](screenshots/Dashboard%20Display%203.png)
 
-**Section 4 — Constraints**
-![Constraints Configuration](screenshots/Dashboard_Display_4.png)
+**Section 4 — Constraints:** Long/short, weight caps, gross exposure, beta-neutral penalty
+![Constraints Configuration](screenshots/Dashboard%20Display%204.png)
 
-**Section 5 — Selection**
-![Selection Configuration](screenshots/Dashboard_Display_5.png)
+**Section 5 — Selection:** Subset size, exhaustive limit, random search budget
+![Selection Configuration](screenshots/Dashboard%20Display%205.png)
 
-**Section 6 — Risk Controls**
-![Risk Controls Configuration](screenshots/Dashboard_Display_6.png)
+**Section 6 — Risk Controls:** Volatility targeting, Sharpe-weighted caps
+![Risk Controls Configuration](screenshots/Dashboard%20Display%206.png)
 
-**Section 7 — Analytics**
-![Analytics Configuration](screenshots/Dashboard_Display_7.png)
+**Section 7 — Analytics:** Monte Carlo settings, simulation engine, regime parameters
+![Analytics Configuration](screenshots/Dashboard%20Display%207.png)
 
-**Section 8 — Drawdowns**
-![Drawdowns Configuration](screenshots/Dashboard_Display_8.png)
+**Section 8 — Drawdowns:** Stress mode, density heatmap, breach thresholds, time-under-water
+![Drawdowns Configuration](screenshots/Dashboard%20Display%208.png)
 
 ---
 
 ### Portfolio Summary & Results
+Full summary output: Blend model (MPT + CAPM + APT + ML), 30 tickers, random subset selection. Annualised return 40.62%, Sharpe 1.84, Sortino 1.64, final portfolio value £401,524 on £121,537 total invested — profit £279,988.
 
-![Portfolio Performance Summary](screenshots/Portfolio_performance_and_summary_.png)
+![Portfolio Performance Summary](screenshots/Portfolio%20performance%20and%20summary%20.png)
 
 ---
 
 ### Portfolio Set-up & Weights
+Target allocation table with per-asset weights and initial investment amounts.
 
-![Portfolio Set-up](screenshots/Portfolio_Set_Up.png)
+![Portfolio Set-up](screenshots/Portfolio%20Set%20Up.png)
 
-![Weights & Holdings](screenshots/Stock_Risk_contributions_.png)
+Per-asset weights, volatility contributions, risk contribution percentages, and CAPM betas alongside full holdings table.
+
+![Weights & Holdings](screenshots/Stock%20Risk%20contributions%20.png)
 
 ---
 
 ### Portfolio Growth
+Portfolio growth with Monte Carlo P10–P90 band versus S&P 500, FTSE 100, and Nasdaq benchmarks.
 
-![Portfolio Growth with Benchmarks](screenshots/Stock_performance_analysis.png)
+![Portfolio Growth with Benchmarks](screenshots/Stock%20performance%20analysis.png)
 
-![Year-by-Year Growth](screenshots/Yearly_Performance_.png)
+Year-by-year growth percentage across the simulation horizon.
+
+![Year-by-Year Growth](screenshots/Yearly%20Performance.png)
 
 ---
 
 ### Monte Carlo Simulation
+Distribution of final portfolio values across 3,000 simulations (Student-t fat-tail engine) alongside downsampled spaghetti paths.
 
-![Monte Carlo Distribution and Spaghetti](screenshots/Monte_Carlo_simulations_.png)
+![Monte Carlo Distribution and Spaghetti](screenshots/Monte%20Carlo%20simulations.png)
 
 ---
 
 ### Drawdown Analytics Suite
 
-**Drawdown Stress Test**
-![Drawdown Stress Test](screenshots/Drawdowns_with_Benchmark_comparisons_.png)
+**Drawdown Stress Test** — Portfolio stress line versus S&P 500, FTSE 100, and Nasdaq with P10–P90 worst-10% band. Portfolio max drawdown -8.03% versus S&P 500 -24.77% and Nasdaq -33.10%.
 
-**Breach Probability Curves**
-![Breach Probabilities](screenshots/Breach%20probabilities%20.png)
+![Drawdown Stress Test](screenshots/Drawdowns%20with%20Benchmark%20Comparisons.png)
 
-**Time Under Water**
-![Time Under Water](screenshots/Tim_Under_Water_analysis_.png)
+**Breach Probability Curves** — Probability of breaching -20% and -30% drawdown thresholds over time across the worst 10% of simulation runs.
 
-**Max Drawdown Distribution**
-![Max Drawdown Distribution](screenshots/Max_drawdown_Distribution_diagram.png)
+![Breach Probabilities](screenshots/Breach%20Probabilities.png)
+
+**Time Under Water Distribution** — Histogram of under-water episode lengths. The majority of episodes resolve within 5 months.
+
+![Time Under Water](screenshots/Tim%20Under%20Water%20analysis%20.png)
+
+**Max Drawdown Distribution** — Worst-10% subset versus all simulation runs.
+
+![Max Drawdown Distribution](screenshots/Max%20drawdown%20Distribution%20diagram.png)
 
 ---
 
 ### Correlation Heatmap
+Post-cleaning daily return correlations across the selected asset universe.
 
-![Correlation Heatmap](screenshots/Correlation_Heatmap.png)
+![Correlation Heatmap](screenshots/Correlation%20Heatmap.png)
 
 ---
 
 ### Interactive Efficient Frontier
+Clicking any point opens the Frontier Picker — choose model, preview full Monte Carlo and drawdown suite, then apply to replace the active portfolio.
 
-![Efficient Frontier](screenshots/Interactive_Efficient_Frontier_Graph_Image_1.png)
+![Efficient Frontier](screenshots/Interactive%20Efficient%20Frontier%20Graph%20Image%201.png)
 
-![Frontier Hover](screenshots/Interactive_Efficient_Frontier_Graph_Image_3.png)
+![Frontier Hover](screenshots/Interactive%20Efficient%20Frontier%20Graph%20Image%203.png)
 
-![Frontier Selected Point](screenshots/Interactive_Efficient_Frontier_Graph_Image_2.png)
+![Frontier Selected Point](screenshots/Interactive%20Efficient%20Frontier%20Graph%20Image%202.png)
+```
 
+---
+
+Commit message:
+```
+Fix all screenshot paths with correct filenames and %20 encoding
 ---
 
 ## Technical Stack
