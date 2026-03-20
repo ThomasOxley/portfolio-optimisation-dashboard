@@ -2,7 +2,7 @@
 
 An interactive, end-to-end portfolio construction and risk analytics tool built in Python for JupyterLab. Combines four expected return models, a four-engine Monte Carlo simulation framework, a complete drawdown analytics suite, and an interactive Efficient Frontier Picker — all within a single-cell dashboard driven by a fully interactive UI.
 
-Built as part of MSc Financial Technology research at Bristol Business School, UWE (2024–2025).
+Built as part of MSc Financial Technology research at Bristol Business School, UWE (2025–2026).
 
 ---
 
