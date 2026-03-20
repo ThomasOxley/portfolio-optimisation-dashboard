@@ -285,7 +285,7 @@ Optimising over a large universe of assets often produces concentrated, fragile 
 
 ## Academic Context
 
-This tool was developed as part of MSc Financial Technology research at Bristol Business School, University of the West of England (2024–2025). It informed the quantitative methodology of the dissertation *"Index Fund Allocation Optimisation"*, which applies Modern Portfolio Theory to FTSE 100 index constituents and evaluates the practical implementability of efficient frontier allocations.
+This tool was developed as part of MSc Financial Technology research at Bristol Business School, University of the West of England (2025–2026). It informed the quantitative methodology of the dissertation *"Index Fund Allocation Optimisation"*, which applies Modern Portfolio Theory to FTSE 100 index constituents and evaluates the practical implementability of efficient frontier allocations.
 
 ---
 
