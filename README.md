@@ -186,11 +186,11 @@ Distribution of final portfolio values across 3,000 simulations (Student-t fat-t
 
 **Drawdown Stress Test** — Portfolio stress line versus S&P 500, FTSE 100, and Nasdaq with P10–P90 worst-10% band. Portfolio max drawdown -8.03% versus S&P 500 -24.77% and Nasdaq -33.10%.
 
-![Drawdown Stress Test](screenshots/Drawdowns%20with%20Benchmark%20Comparisons%20.png)
+![Drawdown Stress Test](screenshots/Drawdowns%20with%20Benchmark%20comparisons%20.png)
 
 **Breach Probability Curves** — Probability of breaching -20% and -30% drawdown thresholds over time across the worst 10% of simulation runs.
 
-![Breach Probabilities](screenshots/Breach%20Probabilities.png)
+![Breach Probabilities](screenshots/Breach%20Probabilities%20.png)
 
 **Time Under Water Distribution** — Histogram of under-water episode lengths. The majority of episodes resolve within 5 months.
 
